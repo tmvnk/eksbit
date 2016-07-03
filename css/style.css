@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'FreightTextProBook-Regular';
+    src: url('http://code.ionicframework.com/assets/fonts/29D26A_0_0.eot');
+    src: url('http://code.ionicframework.com/assets/fonts/29D26A_0_0.eot?#iefix') format('embedded-opentype'), url('http://code.ionicframework.com/assets/fonts/29D26A_0_0.woff') format('woff'), url('http://code.ionicframework.com/assets/fonts/29D26A_0_0.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'FreightTextProMedium-Regular';
+    src: url('http://code.ionicframework.com/assets/fonts/29D26A_1_0.eot');
+    src: url('http://code.ionicframework.com/assets/fonts/29D26A_1_0.eot?#iefix') format('embedded-opentype'), url('http://code.ionicframework.com/assets/fonts/29D26A_1_0.woff') format('woff'), url('http://code.ionicframework.com/assets/fonts/29D26A_1_0.ttf') format('truetype');
+}
+body {
+    font-family: FreightTextProBook-Regular, Georgia, Cambria, 'Times New Roman', Times, serif;
+}
+#w {
+    max-width: 650px;
+    margin: auto;
+}
+#logo {
+    margin: 18px 0 56px;
+    text-align: center;
+}
+h1,h2,h3,h4,h5 {
+    font-family: "FreightTextProMedium-Regular", Georgia, Cambria, "Times New Roman", Times, serif;
+    color: #222;
+    font-weight: normal;
+    font-size: 28px;
+    letter-spacing: -0.02rem;
+    margin: 42px 0px 12px 0px;
+}
+
+a{
+    color: #222;
+    text-underline: none;
+}
+
+p{
+    font-size: 22px;
+    color: rgb(68, 68, 68);
+    line-height: 34px;
+}
+
+#youcandoit-button {
+    text-decoration: none;
+    font-family: "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+    border: none;
+    background-color: #000053;
+    font-size: 28px;
+    color: #fff;
+    padding: 20px 48px;
+    text-align: center;
+    border-color: #b2b2b2;
+    position: relative;
+    display: inline-block;
+    margin: 32px 0px 100px 0px;
+    min-width: 160px;
+    min-height: 48px;
+    border-radius: 2px;
+    vertical-align: top;
+    text-align: center;
+    text-overflow: ellipsis;
+    line-height: 47px;
+    cursor: pointer;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+    transition: box-shadow 0.3s ease-in-out
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
